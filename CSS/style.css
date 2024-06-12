@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(45deg, rgb(53, 52, 52), rgb(13, 255, 13));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black
+}
+
+label{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(59, 170, 59);
+    color: green;
+    cursor: pointer
+}
+button:hover{
+    background-color: lightgreen;
+}
+.voltar-site{
+    color: green;
+}
